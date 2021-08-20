@@ -15,7 +15,7 @@ function Zip(props) {
             props.onZipChange(event.target.value);
         }
     };
-
+    console.log('check')
     return (
         <div className="col-sm-4">
             <div className="row">
