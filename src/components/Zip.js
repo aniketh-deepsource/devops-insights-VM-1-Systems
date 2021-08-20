@@ -6,6 +6,7 @@ function Zip(props) {
 
     const validate = (event) => {
         const zipCodePattern = /^\d{5}$/;
+        const reg = /大阪/g;
         const valid = zipCodePattern.test(event.target.value);
         if (!valid) {
             setValidationError('* should be a 5 digit number only');
